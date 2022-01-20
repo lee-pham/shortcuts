@@ -40,5 +40,4 @@ evaluations.forEach((row) => {
     out += "\n"
 })
 
-console.log(`Wordle ${puzzleNumber} ${attempts}/6`)
-console.log(out)
+console.log(`Wordle #${puzzleNumber} ${attempts}/6\n\n${out}`)
